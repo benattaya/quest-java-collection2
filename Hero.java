@@ -31,7 +31,7 @@ public class Hero implements Comparable<Hero>{
 
         @Override
         public int compareTo(Hero hero) {
-            return hero.getName().compareTo( this.getName());
+            return this.getName().compareTo(hero.getName());
         }
 
 
